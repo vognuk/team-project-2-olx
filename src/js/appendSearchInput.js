@@ -6,4 +6,4 @@ const appendSearchInput = () => {
 
 const SearchButtonRef = document.querySelector('.search_button');
 SearchButtonRef.addEventListener('click', appendSearchInput);
-// appendSearchInput();
+//  appendSearchInput();
