@@ -1,4 +1,3 @@
- 
 .search-box {
   position: relative;
   display: block;
@@ -53,7 +52,7 @@
 }
 .input-search::placeholder {
   color: white;
-  // background: url(./images/search.svg); //Це зображення кладе SASS
+  // background: url(../images/search.svg); - цю іконку не використовуй через неї не компілюється
   background-repeat: no-repeat;
   background-position: 100%;
   background-size: contain;
