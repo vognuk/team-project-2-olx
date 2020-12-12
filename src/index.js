@@ -9,6 +9,10 @@ import appendFooter from './js/appendFooter.js';
 import appendAuthorization from './js/appendAuthorization.js';
 import appendCategory from './js/appendCategory.js';
 
+//Алекс
+// import appendNewAdModal from './js/appendNewAdModal.js';
+// import cardProduct from './js/appendCardProduct.js'
+
 import './js/button.js'; //назва кнопки має бути [призначення]Btn, наприклад, loginBtn
 
 

@@ -3,7 +3,7 @@
 //Напиши функціонал з карткою Юри і розкоментуй
 
 const appendCategory = () => {
-    document.querySelector('.category-list').insertAdjacentHTML('afterbegin', categoryHbs());
+    // document.querySelector('.category-list').insertAdjacentHTML('afterbegin', categoryHbs());
 };
 
 appendCategory();
