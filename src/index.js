@@ -7,6 +7,7 @@ import appendSearchInput from './js/appendSearchInput.js';
 import appendCallCards from './js/appendCallCards.js';
 import appendFooter from './js/appendFooter.js';
 import appendAuthorization from './js/appendAuthorization.js';
+import appendCategory from './js/appendCategory.js';
 
 import './js/button.js'; //назва кнопки має бути [призначення]Btn, наприклад, loginBtn
 
