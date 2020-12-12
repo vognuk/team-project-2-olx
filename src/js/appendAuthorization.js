@@ -4,4 +4,4 @@ const appendAuthorization = () => {
     document.querySelector('main').insertAdjacentHTML('beforeend', authorizationHbs());
 };
 
-appendAuthorization();
+// appendAuthorization();

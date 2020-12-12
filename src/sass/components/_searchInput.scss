@@ -1,4 +1,5 @@
 .search-box {
+  margin-top: 360px;
   position: relative;
   display: block;
   text-align: center;
@@ -58,16 +59,28 @@
   background-size: contain;
 }
 
-.backdrop {
-  position: fixed;
+.backdrop-search {
+  // position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background-color: rgba(33, 33, 33, 0.2);
   overflow-y: scroll;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
 }
 
-// .backdrop.is-hidden {
-//   opacity: 0;
-//   pointer-events: none;
-// }
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
+}
